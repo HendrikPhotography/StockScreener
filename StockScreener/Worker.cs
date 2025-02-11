@@ -13,7 +13,7 @@ public class Worker : BackgroundService
     private readonly ILogger<Worker> _logger;
     private readonly IServiceProvider _serviceProvider;
     private readonly HttpClient _httpClient;
-    private readonly string _apiKey = "19IGo9YUtDpou4H9pWA8Yhro9PzP0hEO"; // Replace with your Polygon.io API key
+    private readonly string _apiKey = "API_KEY"; // Replace with your Polygon.io API key
 
     public Worker(ILogger<Worker> logger, IServiceProvider serviceProvider)
     {
